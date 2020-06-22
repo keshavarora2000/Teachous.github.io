@@ -1,0 +1,126 @@
+
+/*Big tablet to 1200 px(Screen size smaller than 1140 px row)*/
+@media only screen and (max-width: 1200px)  {
+    .side-logo { display: none; }
+    
+    .section-1 p { width:90%;       margin: 0 5%;    line-height: 145%;
+                   margin-bottom: 10px; }
+
+    .circle { height: 30px; width: 30px; border-radius: 15px;   font-size:125%;  
+              margin-bottom: 30px;  margin-top: 2px;}
+    .step { margin-bottom: 10px;}
+    
+    .section-reviews { padding: 50px 20px;}
+    .student-review { margin-left: 35px; } 
+    .student-review span { margin-left: 15px;}
+    
+    footer div { width: 90%; margin: 0 5%; }     
+    
+}
+
+/*Small tablets to big tablet: 767 to 1023px*/
+@media only screen and (max-width: 1023px)  {
+    .side-logo { display: none; }
+    
+    .section-1 p { width:90%;       margin: 0 5%;    line-height: 145%;
+                   margin-bottom: 10px; }
+
+    .circle { height: 30px; width: 30px; border-radius: 15px;   font-size:125%;  
+              margin-bottom: 30px;  margin-top: 2px;}
+    .step { margin-bottom: 10px;}
+    
+    .section-reviews { padding: 50px 20px;}
+    .student-review { margin-left: 35px; } 
+    .student-review span { margin-left: 15px;}
+    
+    footer div { width: 90%; margin: 0 5%;};
+    
+    
+}
+
+/*Small phones to small tablets: 480 to 767px*/
+@media only screen and (max-width: 767px)  {
+    .side-logo { display: none; }
+    
+    .main-nav { padding-right: 30px;   padding-left: 40px;}
+    .main-nav ul li { padding-top: 15px;}
+    .btn-interested { display: none; }
+    
+    header { padding: 10px 0px; }
+    .logo {  height: 50px;                width: auto;  }
+    
+    .intro {  width: 80%;          margin: 0 10%;     padding: 20px 0px;}
+    
+    .intro-text {  width: 100%;          margin: 0 10%;         padding: 20px 0;
+                   font-size: 80%;                                      }
+    .intro-text p { padding-bottom: 20px;  word-spacing: 2px;
+                    line-height: 140%;     font-size: 120%;       } 
+    .intro-image {  width: 40%;    margin: 0 30%;  }
+    
+    .section-1 p { width:90%;       margin: 0 5%;    line-height: 145%;
+                   margin-bottom: 10px; }
+    .section-2 .app { width: 30%;    margin-left: 10%;}
+    
+    .circle { height: 30px; width: 30px; border-radius: 15px;   font-size:125%;  
+              margin-bottom: 40px;  margin-top: 2px;}
+    .step { margin-bottom: 10px;}
+    .appbtn img {    width: 45%;          margin-left: 25%;
+                     margin-right: 30px;  margin-top: 20px;       }
+     
+    .section-founder div img { width: 20%; margin: 0 40%; margin-bottom: 5%;}
+    .founder-img { border-radius: 100px; border: 0px solid #000; }
+    
+    .section-founder div blockquote { width: 90%; margin: 5% 5%;}
+    .section-founder div cite { padding: 0;  margin-left: 25%;}
+    
+    footer div { width: 90%; margin: 0 5%;}
+    
+    
+    
+}
+
+/*Small phones form 0 to 480px*/
+@media only screen and ( max-width: 480px )  {
+    .side-logo { display: none; }
+    .main-nav ul { display: none; }
+    .main-nav { padding-left:30px; }
+    .span2 { width: 100%;   height: auto;      margin: 0 15%; }
+    
+    .section-1 { width: 100%;    }
+    
+    .section-1 p { width:90%;       margin: 0 5%;    line-height: 145%;
+                   margin-bottom: 10px; }
+    
+    .section-2 .app { width:40%;   height: auto;   margin-left: 30%;}
+    
+    .circle { height: 30px; width: 30px; border-radius: 15px;   font-size:125%;  
+              margin-bottom: 10%;  margin-top: 0.5%;}
+    .step { margin-bottom: 10px;}
+    .appbtn img { margin-top: 5%; margin-left: 25%;}
+    
+    
+    .section-reviews { padding: 50px 20px;}
+    
+    .student-review { margin-left: 25%; } 
+    .student-review span { padding: 0;  margin-top: 4%; margin-bottom: 10%;  
+                           margin-left: -20%;}
+    .student-review img {  margin: 0 0%;     } 
+    
+    .section-founder div img { width: 40%; margin: 0 30%; margin-bottom: 5%;}
+    .founder-img { border-radius: 100px; border: 0px solid #000; }
+    
+    .section-founder div blockquote { width: 90%; margin: 5% 5%;}
+    
+    .footer-nav  { width: 70%; margin: 0 15%; }
+    .social-links { width: 60%; margin: 0 20%; }
+    
+    .footer-nav li {  float: left; margin: 10px 15px; }
+
+    .social-links li { float: left; margin: 10px 15px; }
+    
+    .social links li:first-child { margin-left: 15px;}
+    
+    .copyright{ text-align: center;   width: 90%; margin: 0 5%;  margin-bottom: 10px; }
+    
+    .developer { text-align: center;  width: 70%; margin: 0 15%; }
+}
